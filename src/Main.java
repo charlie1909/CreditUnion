@@ -14,7 +14,7 @@ public class Main {
         LoanAccount loan3 = new LoanAccount(charlie1, "Developer", 15000, 10000);
         boolean made1 = loan1.createAccount(charlie1);
         boolean made2 = loan2.createAccount(charlie2);
-        boolean made3 = loan2.createAccount(charlie2);
+        boolean made3 = loan3.createAccount(charlie2);
         System.out.println(made1);
         System.out.println(made2);
         System.out.println(made3);

@@ -26,7 +26,7 @@ public class LoanAccount extends CreditUnion {
                 totalLoanLeft = totalLoanLeft - loanValue;
             }
             if(totalLoanLeft < loanValue){
-                System.out.println("You do not have enough to take out a loan this amount.");
+                System.out.println("You do not have enough to take out a loan this amount. You have £" + totalLoanLeft + " left to take out");
                 return false;
             }
         }
